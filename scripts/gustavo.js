@@ -66,11 +66,11 @@ class Obrazek {
 }
 
 function preload() {
-  movingImage = loadImage('../pictures/gustavo.png');
-  collectImage = loadImage('../pictures/chicken.webp');
-  collisionSound = loadSound('../sounds/yummy.mp3');
-  backgroundImage = loadImage('../pictures/lospollos.jpg');
-  music = loadSound('../sounds/saul.mp3'); // Hudba na pozadí
+  movingImage = loadImage('pictures/gustavo.png');
+  collectImage = loadImage('pictures/chicken.webp');
+  collisionSound = loadSound('sounds/yummy.mp3');
+  backgroundImage = loadImage('pictures/lospollos.jpg');
+  music = loadSound('sounds/saul.mp3'); // Hudba na pozadí
 }
 
 function setup() {

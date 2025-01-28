@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pololetni projekt - Hra</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="https://unpkg.com/p5.collide2d"></script>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+      <a href="#" id="close-btn">&times;</a>
+      <h2>Game mods</h2>
+      <ul>
+        <li><a href="index.html">Walter</a></li>
+        <li><a href="index2.html">Saul</a></li>
+        <li><a href="index3.html">Gustavo</a></li>
+      </ul>
+    </div>
+
+    <!-- Tlačítko pro otevření sidebaru -->
+    <div id="open-btn">☰</div>
+
+    <!-- Script pro kreslení hry -->
+    <script src="../scripts/walter.js"></script>
+
+    <script>
+      // Otevření sidebaru
+      document.getElementById('open-btn').addEventListener('click', () => {
+        document.getElementById('sidebar').style.width = '250px';
+      });
+
+      // Zavření sidebaru
+      document.getElementById('close-btn').addEventListener('click', () => {
+        document.getElementById('sidebar').style.width = '0';
+      });
+    </script>
+  </body>
+</html>

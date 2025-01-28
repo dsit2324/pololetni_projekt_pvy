@@ -66,11 +66,11 @@ class Obrazek {
 }
 
 function preload() {
-  movingImage = loadImage('../pictures/saulgoodman.webp');
-  collectImage = loadImage('../pictures/book.webp');
-  collisionSound = loadSound('../sounds/bettercall.mp3');
-  backgroundImage = loadImage('../pictures/soud.jpg');
-  music = loadSound('../sounds/saul.mp3'); // Hudba na pozadí
+  movingImage = loadImage('pictures/saulgoodman.webp');
+  collectImage = loadImage('pictures/book.webp');
+  collisionSound = loadSound('sounds/bettercall.mp3');
+  backgroundImage = loadImage('pictures/soud.jpg');
+  music = loadSound('sounds/saul.mp3'); // Hudba na pozadí
 }
 
 function setup() {
